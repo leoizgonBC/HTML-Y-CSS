@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #e1e1e1;
+    background-color: #1a1a1a;
+}
+
+/* Header */
+header {
+    background-color: #252526; /* Color oscuro para header */
+    color: #e1e1e1;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 4px solid #0078D4;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #a0a0a0;
+}
+
+/* Nav */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    padding: 0.75rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #e1e1e1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0078D4; /* Azul de Microsoft en hover */
+}
+
+/* Secciones */
+section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 1.5rem auto;
+    background-color: #2d2d2d;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+/* Artículos */
+section#articulos article {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #333333;
+    border-left: 5px solid #0078D4;
+    border-radius: 8px;
+}
+
+section#articulos article h3 {
+    font-size: 1.8rem;
+    color: #e1e1e1;
+}
+
+section#articulos article p {
+    font-size: 1.1rem;
+    color: #c0c0c0;
+}
+
+section#articulos article a {
+    display: inline-block;
+    margin-top: 0.8rem;
+    color: #0078D4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section#articulos article a:hover {
+    color: #005A9E;
+}
+
+/* Footer */
+footer {
+    background-color: #252526;
+    color: #e1e1e1;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1.2rem;
+}
+
+footer ul li a {
+    color: #e1e1e1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: #0078D4;
+}

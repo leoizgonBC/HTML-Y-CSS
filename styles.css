@@ -11,9 +11,9 @@ body {
     background-color: #1a1a1a;
 }
 
-/* Header */
+
 header {
-    background-color: #252526; /* Color oscuro para header */
+    background-color: #252526; 
     color: #e1e1e1;
     padding: 1.5rem;
     text-align: center;
@@ -30,7 +30,7 @@ header p {
     color: #a0a0a0;
 }
 
-/* Nav */
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -51,10 +51,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #0078D4; /* Azul de Microsoft en hover */
+    color: #0078D4; 
 }
 
-/* Secciones */
+
 section {
     padding: 2rem;
     max-width: 1000px;
@@ -64,7 +64,7 @@ section {
     border-radius: 8px;
 }
 
-/* Artículos */
+
 section#articulos article {
     margin: 2rem 0;
     padding: 1.5rem;
@@ -95,7 +95,18 @@ section#articulos article a:hover {
     color: #005A9E;
 }
 
-/* Footer */
+article img {
+    float: left;
+    margin-right: 10px;    
+    height: auto;
+}
+
+article h3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
 footer {
     background-color: #252526;
     color: #e1e1e1;
